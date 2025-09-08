@@ -10,3 +10,5 @@ print(f"""
       Your monthly savings are $ {savings}.
       Projected savings after one year, with interest, is: $ {projected_savings}.
       """)
+
+""" monthly_savings\s*=\s*(monthly_income\s*-\s*monthly_expenses|float\s*\(\s*monthly_income\s*\)\s*-\s*float\s*\(\s*monthly_expenses\s*\)) """
