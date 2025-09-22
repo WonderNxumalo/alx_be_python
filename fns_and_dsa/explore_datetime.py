@@ -13,6 +13,6 @@ def calculate_future_date():
     current_date = datetime.date.today()
     days_to_add = datetime.timedelta(days=number_of_days)
     future_date = current_date + days_to_add
-    print(f"Future date: {future_date}")
+    print(f"Future date: {future_date.strftime("%Y-%m-%d")}")
 
 calculate_future_date()
