@@ -35,6 +35,6 @@ class BankAccount:
         Prints the current account balance in a user-friendly format.
         """
         # Note: The expected output format is "Current Balance: ${amount}"
-        print(f"Current Balance: ${self._account_balance: .2f}")
+        print(f"Current Balance: ${self._account_balance:.2f}")
 
 # Note: No need for a main block in this file since main-0.py handles execution
