@@ -66,7 +66,7 @@ class TestSimpleCalculator(unittest.TestCase):
 
 # -------------------------- Division Tests --------------------------
 
-    def test_division_normal(self):
+    def test_division(self):
         """Test the divide method with normal, non-zero results."""
         # Standard integer division
         self.assertEqual(self.calc.divide(10, 2), 5.0)
